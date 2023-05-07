@@ -23,7 +23,7 @@ function loadGalleryImages(
 ) {
   const image = `
   <figure class="gallery-image_container" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-    <a class="image-link" href="${imageLink}" target="_blank" title="View the foto by ${authorName} from ${userLocation}" itemprop="contentUrl">
+    <a class="image-link" href="${imageLink}" target="_blank" title="View the photo by ${authorName} from ${userLocation}" itemprop="contentUrl">
       <img class="gallery-image" src="${imageURL}" alt="${description}" width="456" height="320" itemprop="thumbnailUrl">
     </a>
     <div class="gallery-image_info">
