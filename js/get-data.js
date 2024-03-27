@@ -12,7 +12,7 @@ async function getData(query = currentQuery, page = currentPage) {
   toggleSearchButton()
   const accessKey = '8EnJm5o8GKeVQ_y02NuOD2VtMkZxPLkEJ-TVkNjSaMs'
   const endpoint = '/search/photos?'
-  const imagesPerPage = 12
+  const imagesPerPage = 30
 
   const baseUrl = 'https://api.unsplash.com'
   // Request parameters
